@@ -1,0 +1,67 @@
+struct TMPL_Test1_S
+{
+u32 test_param_1;
+u16 test_param_2;
+u8 test_param_3;
+};
+struct TMPL_Test2_S
+{
+u16 test_param_1;
+u32 test_param_2;
+u8 test_param_3;
+};
+struct TMPL_Test3_S
+{
+u32 test_param_1;
+u8 test_param_2;
+u16 test_param_3;
+u32 test_param_4;
+};
+struct TMPL_Test4_S
+{
+u16 test_param_1;
+u16 test_param_2;
+u8 test_param_3;
+};
+struct TMPL_Test5_S
+{
+struct TMPL_Test4_S test_S_1;
+u16 test_param_2;
+u8 test_param_3;
+};
+struct TMPL_Test6_S
+{
+u16 test_param_1;
+u32 test_param_2;
+u8 test_param_3;
+};
+struct TMPL_Test7_S
+{
+struct TMPL_Test6_S test_S_1;
+u16 test_param_2;
+u8 test_param_3;
+};
+struct TMPL_Test8_S
+{
+u32 test_param_1;
+u16 test_param_2;
+u8 test_param_3;
+};
+struct TMPL_Test9_S
+{
+u16 test_param_2;
+struct TMPL_Test8_S test_S_1;
+u8 test_param_3;
+};
+struct TMPL_Test10_S
+{
+u8 test_param_1;
+u16 test_param_2;
+u32 test_param_3;
+};
+struct TMPL_Test11_S
+{
+u16 test_param_2;
+struct TMPL_Test10_S test_S_1;
+u8 test_param_3;
+};
